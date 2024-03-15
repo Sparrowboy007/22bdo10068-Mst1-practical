@@ -1,0 +1,12 @@
+git init
+git branch
+git checkout -b mybranch
+git status
+git merge --squash
+git add file1.txt
+git commit -m "file1 has added"
+git log --oneline
+git add file2.txt
+git commit -m "file2 has added"
+git log --oneline
+git log --graph
